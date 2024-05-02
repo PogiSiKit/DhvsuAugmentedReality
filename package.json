@@ -1,0 +1,30 @@
+{
+  "name": "augmented-reality-museum",
+  "version": "1.0.0",
+  "description": "A thesis project for school focusing on the integration of augmented reality technology within the Don Honorio Ventura State Museum.m.",
+  "main": "Server/app.js",
+  "scripts": {
+    "start": "nodemon --watch Server app.js"
+  },
+  "keywords": [
+    "augmented reality",
+    "museum",
+    "Don Honorio Ventura State University",
+    "school project"
+  ],
+  "author": "Kit",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.2",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-regular-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "ejs": "^3.1.10",
+    "express": "^4.19.2"
+  }
+}
